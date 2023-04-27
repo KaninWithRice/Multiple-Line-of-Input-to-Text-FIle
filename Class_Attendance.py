@@ -10,6 +10,7 @@ with open("Attendance.txt", "w") as attendance_list:
         name_input = input("Enter a name: ")
         attendance_list.write(name_input + "\n")
 # Ask if he/she wants to input another
+        another_input = input("Do you want to enter another? y/n ")
 # If y the program will ask for another name
 # If n the program will end
 # Prints Attendance List

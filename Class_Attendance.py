@@ -17,3 +17,5 @@ with open("Attendance.txt", "w") as attendance_list:
             print ("Thank you for using the program","\n")
             break
 # Prints Attendance List
+with open("Attendance.txt","r") as final_list:
+    print("Attendance List: ","\n" + final_list.read())

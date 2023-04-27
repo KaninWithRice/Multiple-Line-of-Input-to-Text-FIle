@@ -13,4 +13,7 @@ with open("Attendance.txt", "w") as attendance_list:
         another_input = input("Do you want to enter another? y/n ")
 # If y the program will ask for another name
 # If n the program will end
+        if another_input != "y":
+            print ("Thank you for using the program","\n")
+            break
 # Prints Attendance List
